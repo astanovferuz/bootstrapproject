@@ -47,3 +47,7 @@ a   {
 .carousel {
     border: solid #5637DD;
 }
+
+.fa-close   {
+    color: white;
+}
