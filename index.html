@@ -30,7 +30,7 @@
                     <h2>a better way to camp</h2>
                 </div>
                 <div class="col-md-4 col-xl-2">
-                    <a data-target="#reserveModal" data-toggle="modal" role="button" class="btn btn-lg btn-info mt-4">Reserve&nbsp;Campsite</a>
+                    <a id="resButton" role="button" class="btn btn-lg btn-info mt-4">Reserve&nbsp;Campsite</a>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
                     <li class="nav-item"><a href="contactus.html" class="nav-link"><i class="fa fa-lg fa-address-card"></i> Contact</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <a role="button" id="logModal">
                         <i class="fa fa-sign-in"></i> Login
                     </a>
                 </span>
@@ -61,8 +61,8 @@
     <div id="reserveModal" class="modal fade" role="form">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
-                <div class="modal-header bg-info">
-                    <h3 class="text-white">Reserve a Campsite</h3>
+                <div class="modal-header">
+                    <h3>Reserve a Campsite</h3>
                     <button class="close" type="button" data-dismiss="modal"><span><i class="fa fa-close"></i></span></button>
                 </div>
                 <div class="modal-body">
@@ -110,10 +110,10 @@
 
     <div id="loginModal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
-            <div class="modal-content">
+            <div class="modal-content border-0">
                 <div class="modal-header">
                     <h3 class="modal-title">Login</h3>
-                    <button class="close" type="button" data-dismiss="modal">&times;</button>
+                    <button class="close" type="button" data-dismiss="modal"><span><i class="fa fa-close"></i></span></button>
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
